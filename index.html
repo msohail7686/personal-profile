@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Web Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .profile-card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 700px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e1e8ed;
+        }
+
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            font-size: 1.4rem;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        .contact-section a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+            color: #2980b9;
+        }
+
+        @media (max-width: 600px) {
+            .profile-card {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- Main Heading -->
+        <h1>Muhammad Sohail Nawaz</h1>
+
+        <!-- About Me Section -->
+        <h2>About Me</h2>
+        <p>Hello! I am a dedicated professional expanding my expertise into digital technologies, management, and modern web development. I enjoy learning structured processes, solving complex problems, and building efficient digital solutions.</p>
+        <p>Currently, I am focused on strengthening my technical skills, learning new programming concepts, and creating clean, responsive web interfaces.</p>
+
+        <!-- Skills Section -->
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>Responsive Web Design</li>
+            <li>Operations & Process Management</li>
+            <li>Problem Solving & Organization</li>
+            <li>Basic JavaScript</li>
+        </ul>
+
+        <!-- Contact Section -->
+        <h2>Contact</h2>
+        <div class="contact-section">
+            <p>You can reach out to me via email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+            <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com" target="_blank">Profile Link</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
